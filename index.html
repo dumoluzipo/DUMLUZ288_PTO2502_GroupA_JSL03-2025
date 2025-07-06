@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styling.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <title>Kanban | Launch Career</title>
+</head>
+
+<body>
+    <!-- Navigation Sidebar: Contains the logo, navigation links for kanbans, and theme toggle. -->
+    <nav class="sidebar">
+        <div class="sidebar-header">
+          <img src="assets/logo-light.svg" alt="Kanban Logo" class="logo" />
+        </div>
+        <div >
+          <h4 class="kanban-title">ALL kanbanS (1)</h4>
+          <ul class="kanban-list">
+              <button class="side-button">Launch Career</button>
+          </ul>
+        </div>
+      </nav>
+      
+
+    <!-- Main Layout: Header with kanban title, add task button, and main content area for task columns. -->
+    <div class="main">
+    <header class="main-header">
+      <h2 class="main-name">Launch Career</h2>
+    </header>
+
+    <main class="kanban-columns">
+        <!-- Tasks container for TODO -->
+        <div class="column">
+        <div class="column-header">
+          <span class=" span-blue"></span>
+          <h4>TODO (4)</h4>
+        </div>
+        <!-- Tasks container for ToDo -->
+        <div class="tasks">
+          <div class="task-card">Launch Epic Career 🚀</div>
+          <div class="task-card">Conquer React 🧬</div>
+          <div class="task-card">Understand Databases 🧠</div>
+          <div class="task-card">Crush Frameworks 🧱</div>
+        </div>
+      </div>
+
+      <!-- DOING Column -->
+      <div class="column">
+        <div class="column-header">
+          <span class=" span-purple"></span>
+          <h4>DOING (2)</h4>
+        </div>
+        <!-- Tasks container for DOING -->
+        <div class="tasks">
+          <div class="task-card">Master JavaScript 💛</div>
+          <div class="task-card">Never Give Up 🏆</div>
+        </div>
+      </div>
+
+      <!-- DONE Column -->
+      <div class="column">
+        <div class="column-header">
+          <span class=" span-green"></span>
+          <h4>DONE (2)</h4>
+        </div>
+        <div class="tasks">
+          <div class="task-card">Explore ES6 Features 🚀</div>
+          <div class="task-card">Have fun 😺</div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
